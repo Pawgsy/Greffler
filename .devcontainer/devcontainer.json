@@ -1,11 +1,18 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-    "name": "Node.js",
+    "name": "Pawgsy DevContainer",
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
     "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
     "features": {
-      "ghcr.io/devcontainers-contrib/features/jshint:2": {}
+	"ghcr.io/devcontainers-contrib/features/jshint:2": {},
+	"ghcr.io/devcontainers/features/azure-cli:1": {},
+	"ghcr.io/devcontainers/features/node:1": {},
+	"ghcr.io/devcontainers/features/powershell:1": {},
+	"ghcr.io/devcontainers-contrib/features/deno-asdf:2": {},
+	"ghcr.io/devcontainers-contrib/features/firebase-cli:2": {},
+	"ghcr.io/devcontainers-contrib/features/shopify-cli:1": {},
+	"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
     // Configure tool-specific properties.
 	"customizations": {

@@ -24,6 +24,7 @@ node_modules/
 
 # build output
 dist/
+build/
 # generated types
 .astro/
 
