@@ -1,17 +1,27 @@
 ---
 import Meta from "../components/Meta.astro";
+import Header from "../components/Header.astro";
+import Main from "../components/Main.astro";
+import Footer from "../components/Footer.astro";
 ---
+<!DOCTYPE html>
 
-<html lang="en">
+<html lang="de_DE">
 	<head>
-		<Meta/>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+
+		<Meta/>
+		
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="img/Greffler.png" />
+		<!--<link rel="icon" type="img/svg+xml" href="img/Greffler.svg">-->
+		
+		<script src="/js/main.js" is:inline></script>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Header />
+		<Main />
+		<Footer />
 	</body>
 </html>
