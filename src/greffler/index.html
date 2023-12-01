@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Greffler</title>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <meta name="author" content="Pawgsy">
+    <meta name="description" content="Homepage of Greffler">
+    
+    <meta property="og:title" content="Greff.">
+    <meta property="og:description" content="Homepage of Greffler">
+    <meta property="og:image" content="/some-image.png">
+    <meta property="og:url" content="/this-page.html">
+    <meta property="og:site_name" content="Greffler">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Homepage of Greffler">
+    
+    
+    <link rel="stylesheet" href="">
+    
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <script src=""></script>
+  </head>
+
+  <style>
+  </style>
+
+  
+
+  <body>
+
+   
+
+
+  <style>
+    @font-face {
+      font-family: myFirstFont;
+      src: url(nflpackers.ttf);
+    }
+
+    * {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      display: block;
+      background-color: black;
+    }
+
+    .fullsize_viewport {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #container {
+      text-align: center;
+      overflow: hidden;
+    }
+    .videobackground {
+      z-index: 0;
+      filter: blur(3px);
+      object-fit: cover;
+      /*transform: scale(1.04);*/
+    }
+
+    .h1 {
+      text-transform: uppercase;
+    }
+
+    #text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: myFirstFont;
+      z-index: 1;
+      position: absolute;
+      box-sizing: border-box;
+      text-anchor: middle;
+      color: #ffffff;
+      animation: none;
+      background: #000000;
+      font-size: 45rem;
+      font-weight: normal;
+      mix-blend-mode: multiply;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 1699px) {
+      #text {
+      }
+    }
+  </style>
+
+  <body>
+
+
+
+     <header>
+      <nav></nav>
+    </header>
+    
+    <main>
+      <article id="container" class="">
+      <h1 id="text" class="h1 fullsize_viewport">Greff.</h1>
+      <video class="videobackground fullsize_viewport" autoplay loop muted>
+        <source src="fpv.mp4" type="video/mp4" />
+      </video>
+    </article>
+    </main>
+    
+    <footer></footer>
+      
+    <script src=""></script>
+    
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  </body>
+</html>
