@@ -4,5 +4,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     site:"https://greffler.de",
     outDir:"./docs",
-    cacheDir:"/buildcache"
+    cacheDir:"./buildcache"
 });
